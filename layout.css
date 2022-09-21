@@ -23,13 +23,40 @@ body {
 }
 
 
-
+/* Sidebar layout */
 .sidebar {
+    padding-left: 1rem;
+    padding-top: 1rem;
     grid-area: sidebar;
-    
+    display: grid;
+    align-content: start;
+    gap: 50px;
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar ul {
+    display: grid;
+    list-style: none;
+    gap: 10px;
 }
 
 .grid-con-main {
     grid-area: grid-con-main;
     
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
