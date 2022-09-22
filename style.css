@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Sidebar style */
 .sidebar {
     font-size: 24px;
     font-weight: 500;
@@ -24,6 +25,59 @@ body {
     color: seashell;
 }
 
+/* Header style */
+.header {
+    padding: 10px 30px;
+}
+
+#search-icon {
+    width: 30px;
+}
+
+.search-input {
+    min-width: 200px;
+}
+
+.search-input input {
+    width: clamp(200px, 80%, 1000px);
+    height: 30px;
+    border-radius: 15px;
+    border: 0;
+    background-color: lightgrey;
+    padding-left: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.user-right p {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#notification-bell {
+    width: 35px;
+}
+
+#small-profilepic {
+    width: 65px;
+}
+
+#big-profilepic {
+    width: 80px;
+}
+
+.header-btn button {
+    border: none;
+    background-color: #0ea5e9;
+    padding: 15px 45px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+/* Main style */
 .grid-con-main {
     background-color: #e0f2fe;
 }
