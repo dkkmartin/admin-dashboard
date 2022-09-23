@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: minmax(250px, 300px) 4fr;
+    grid-template-rows: minmax(170px, 170px);
     grid-template-areas: 
     "sidebar header"
     "sidebar grid-con-main";
@@ -55,8 +56,6 @@ body {
 
 /* Sidebar layout */
 .sidebar {
-    padding-left: 1rem;
-    padding-top: 1rem;
     grid-area: sidebar;
     display: grid;
     align-content: start;
@@ -87,5 +86,45 @@ body {
 .grid-con-main {
     grid-area: grid-con-main;
     display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-items: center;
 }
 
+.grid-con-articles {
+    display: grid;
+    grid-template-columns: minmax(100px, 400px) minmax(100px, 400px);
+    gap: 30px;
+}
+
+.article-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.article {
+    display: grid;
+}
+
+.article-icons {
+    justify-self: end;
+}
+
+.flex-con-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-con-trending {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    
+}
+
+.trending-names {
+    display: grid;
+    align-self: stretch;
+}

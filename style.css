@@ -6,6 +6,8 @@ body {
 
 /* Sidebar style */
 .sidebar {
+    padding-left: 1rem;
+    padding-top: 1rem;
     font-size: 24px;
     font-weight: 500;
     color: seashell;
@@ -27,7 +29,9 @@ body {
 
 /* Header style */
 .header {
-    padding: 10px 30px;
+    padding: 10px 35px;
+    margin-bottom: 2px;
+    box-shadow: rgba(85, 91, 95, 0.10) 0px 3px 6px, rgba(82, 88, 92, 0.10) 0px 3px 60px;
 }
 
 #search-icon {
@@ -78,6 +82,54 @@ body {
 }
 
 /* Main style */
+main {
+    background-color: rgb(224, 242, 254);
+}
+
+.article {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    padding: 30px 20px 10px 20px
+}
+
 .grid-con-main {
-    background-color: #e0f2fe;
+    padding: 20px;
+}
+
+.grid-con-main h2 {
+    padding-bottom: 20px;
+}
+
+.article-icons > img {
+    width: 25px;
+}
+
+.flex-con-articles {
+    margin: 0px 20px;
+    
+}
+
+.flex-con-articles h2 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.flex-announce {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: clamp(100px, 200px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    overflow:hidden;
+}
+
+.flex-con-trending {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: clamp(200px, 300px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
