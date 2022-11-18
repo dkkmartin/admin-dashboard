@@ -1,2 +1,2 @@
 # Admin dashboard
-# [Live site ](https://dkkmartin.github.io/admin-dashboard/)
+# [Live Demo](https://dkkmartin.github.io/admin-dashboard/)
